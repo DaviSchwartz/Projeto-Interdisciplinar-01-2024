@@ -1,0 +1,40 @@
+Requisitos do Sistema:
+Biblioteca de Livros (GLOBAL):
+	Cadastro de Livros
+		Nome, Autor, ISBN, Editora, Genero, Edição.
+
+
+
+Professores devem ser capazes de:
+Se cadastrar:
+	Nome, dataNasc, CPF, RG, Diploma de Ensino Superior, Área de atuação, Email, Telefone.
+
+Postar Conteúdos:
+	Livros (Biblioteca), Video-aulas, Atividades, Podcasts.
+
+Interagir com Usuários:
+	Responder comentarios, Corrigir atividades, Denunciar usuarios.
+
+Acessar Conteúdos:
+	Livros (Biblioteca), Atividades Alunos, Video-aulas, Atividades, Podcasts.
+
+Excluir próprio cadastro;
+Atualizar próprio cadastro;
+
+
+
+
+Alunos devem ser capazes de:
+Se cadastrar:
+	Nome, dataNasc, CPF, RG, RA, Ano de Ensino, necessidades (acessibilidade), Email, Telefone.
+Postar Conteúdos:
+	Livros (Biblioteca), Resposta de Atividades. 
+
+Interagir com Usuários:
+	Responder comentarios, Denunciar usuarios.
+
+Acessar Conteúdos:
+	Livros (Biblioteca), Videos-aulas, Atividades Professores, Podcasts.
+
+Excluir próprio cadastro;
+Atualizar próprio cadastro;
