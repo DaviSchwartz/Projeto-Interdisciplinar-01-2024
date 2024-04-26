@@ -1,0 +1,13 @@
+@startuml
+
+left to right direction
+actor Alunos
+
+    Alunos -- (Se Cadastrar)
+    Alunos -- (Excluir Cadastro)
+    Alunos -- (Postar Conteúdos)
+    Alunos -- (Excluir Conteúdos próprios)
+    Alunos -- (Interagir com Usuarios)
+    Alunos  -- (Denunciar Usuarios)
+
+@enduml
