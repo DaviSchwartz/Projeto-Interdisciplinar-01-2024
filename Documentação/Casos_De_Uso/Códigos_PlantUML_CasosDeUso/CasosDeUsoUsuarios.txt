@@ -1,0 +1,12 @@
+@startuml
+
+left to right direction
+actor Usuarios
+
+    Usuarios -- (Acessar Biblioteca de Videoaula)
+    Usuarios -- (Fazer Upload de VideoAulas)
+    Usuarios -- (Fazer Download de VideoAulas)
+    Usuarios -- (Reportar Erro)
+    Usuarios -- (Denunciar Conteúdos)
+
+@enduml
