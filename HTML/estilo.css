@@ -1,0 +1,38 @@
+.navbar-expand-lg {
+    background-color: #EFF3FC;
+}
+body {
+    background-color: #5A9CEA;
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+    background-color: #EFF3FC;
+    border-bottom: 2px solid #217CE7
+}
+
+.nav-link {
+    border: 2px solid #217CE7;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.nav-link:hover {
+    color:#EFF3FC;
+    background-color: #217CE7;
+}
+
+#logo {
+    text-align: right;
+}
+
+
+.teste{
+    text-align: center;
+    color: #EFF3FC;
+
+}
+.destaque {
+    color:black;
+    ;
+}
