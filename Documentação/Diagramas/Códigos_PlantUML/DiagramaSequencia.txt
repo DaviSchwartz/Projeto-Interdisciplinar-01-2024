@@ -1,0 +1,15 @@
+@startuml
+
+actor Usuario
+actor Limago
+participant  API_Legendas
+participant  API_LIBRAS
+
+Usuario --> Limago: Upload de video para legendar.
+Limago --> API_Legendas: Encaminhamento do video para processamento.
+API_Legendas --> Limago: Encaminhamento do video processado.
+Limago --> API_LIBRAS: Encaminhamento do video para processamento.
+API_LIBRAS --> Limago: Encaminhamento do video processado.
+Limago --> Usuario: Video pronto para download.
+
+@enduml
