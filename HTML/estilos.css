@@ -7,6 +7,7 @@ body {
     background-color: #EFF3FC;
     border-bottom: 2px solid #217CE7;
     position: fixed;
+
     width: 100%;
 }
 
@@ -98,6 +99,21 @@ body {
     align-items: right;
     padding-right: 10%;
     padding-bottom: 5px;
+    padding-left: 10%;
+    height: auto;
+    width: 100%;
+}
+
+#legendapro{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-right: 10%;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    height: auto;
+    width: 100%;
 }
 
 footer {
@@ -109,4 +125,18 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.botao-imagem{
+    border: none;
+    background-color: #EFF3FC;
+}
+
+#btdoacao{
+height: 100px;
+    border: none;
+    background-color: #EFF3FC;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
