@@ -1,13 +1,20 @@
+html{
+    height: 100%;
+}
+
 body {
     background-color: #EFF3FC;
     font-family: "Rubik", sans-serif;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
 }
 
 .navbar {
     background-color: #EFF3FC;
     border-bottom: 2px solid #217CE7;
     position: fixed;
-
+    z-index: 1000;
     width: 100%;
 }
 
@@ -52,8 +59,7 @@ body {
 
 #upload {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+
 }
 
 #upload:hover {
@@ -121,10 +127,14 @@ footer {
     color: #EFF3FC;
     padding: 10px;
     text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
     margin: 0;
+
 }
 
 .botao-imagem{
@@ -132,11 +142,24 @@ footer p {
     background-color: #EFF3FC;
 }
 
+#btupload{
+    width: 80%;
+    outline: none;
+}
+
 #btdoacao{
-height: 100px;
+    height: 100%;
     border: none;
     background-color: #EFF3FC;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100px;
+}
+
+#loading{
+    padding-top: 100px;
+    padding-left: 45%;
+}
+
+.conteudo{
+    flex: 1;
+    padding: 20px;
 }

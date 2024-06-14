@@ -23,10 +23,12 @@ function processamento() {
     descricao.style.display = "none";
     // PROCESSAMENTO
     imagem.src="img/loading.gif";
+    imagem.id="loading";
 
     processamentotexto.textContent= "O seu vídeo está sendo processado, por favor aguarde"
     btdoacao.style.backgroundImage = "url('img/doacao.png')";
-    btdoacao.style.display = "block";
+ 
+    
 }
 var upload = document.getElementById("upload");
 btupload.addEventListener("click", processamento);
