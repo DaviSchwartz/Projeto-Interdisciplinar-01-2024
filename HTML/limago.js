@@ -8,7 +8,7 @@ function processamento() {
     var caixa = document.getElementById("defaultCheck1");
     var caixa2 = document.getElementById("defaultCheck2");
     var librapro = document.getElementById("librapro");
-    var legendapro = document.getElementById("legendapro");
+    var subtexto = document.getElementById("subtexto");
 
     var processamentotexto = document.getElementById("processamentotexto");
     var btdoacao= document.getElementById("btdoacao");
@@ -19,15 +19,14 @@ function processamento() {
     caixa.style.display = "none";
     caixa2.style.display = "none";
     librapro.style.display = "none";
-    legendapro.style.display = "none";
     descricao.style.display = "none";
+    subtexto.style.display = "none";
     // PROCESSAMENTO
     imagem.src="img/loading.gif";
     imagem.id="loading";
 
     processamentotexto.textContent= "O seu vídeo está sendo processado, por favor aguarde"
     btdoacao.style.backgroundImage = "url('img/doacao.png')";
- 
     
 }
 var upload = document.getElementById("upload");

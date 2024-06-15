@@ -2,11 +2,16 @@ html{
     height: 100%;
 }
 
+.margem {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 body {
     background-color: #EFF3FC;
     font-family: "Rubik", sans-serif;
     position: relative;
-    margin: 0;
+
     min-height: 100%;
 }
 
@@ -36,18 +41,20 @@ body {
     color: #217CE7;
     padding-top: 100px;
     font-size: 200%;
-    padding-left: 10%;
-    padding-right: 10%;
+
 }
 
 .texto{
     text-align: center;
-    color: #217CE7;
+    color: black;
     padding-top: 1%;
     font-size: 200%;
-    padding-left: 10%;
-    padding-right: 10%;
+
     padding-bottom: 5%;
+}
+
+.subtexto{
+    text-align: center;
 }
 
 .centralizado {
@@ -84,17 +91,17 @@ body {
 }
 
 .custom-checkbox .form-check-label {
-    padding-left: 40px;
+
     font-size: 50px;
 }
 
 .box{
-    padding-left: 15%;
+
 }
 
 .textbox{
     padding-bottom: 10px;
-    padding-left: 10%;
+    padding-left: 35px;
     color: #217CE7;
 }
 
@@ -103,21 +110,7 @@ body {
     display: flex;
     justify-content: right;
     align-items: right;
-    padding-right: 10%;
     padding-bottom: 5px;
-    padding-left: 10%;
-    height: auto;
-    width: 100%;
-}
-
-#legendapro{
-    text-align: right;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    padding-right: 10%;
-    padding-bottom: 5px;
-    padding-left: 10%;
     height: auto;
     width: 100%;
 }
@@ -134,7 +127,6 @@ footer {
 
 footer p {
     margin: 0;
-
 }
 
 .botao-imagem{
@@ -143,7 +135,7 @@ footer p {
 }
 
 #btupload{
-    width: 80%;
+    width: 100%;
     outline: none;
 }
 
