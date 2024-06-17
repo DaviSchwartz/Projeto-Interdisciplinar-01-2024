@@ -155,3 +155,42 @@ footer p {
     flex: 1;
     padding: 20px;
 }
+
+.direita{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+@media (min-width: 768px){
+    #btupload{
+        width: 50%;
+    }
+
+    #librapro{
+        height: auto;
+        width: 60%;
+        }
+
+    .custom-checkbox .form-check-input {
+        width: 30px;
+        height: 50px;
+        }
+        
+    .custom-checkbox .form-check-label {
+        
+        font-size: 25px;
+        }
+        
+    .textbox{
+            padding-top: 13px;
+            padding-left: 15px;
+            color: #217CE7;
+        }
+    
+    .centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+}    
+}
