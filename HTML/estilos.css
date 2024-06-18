@@ -242,4 +242,8 @@ footer p {
         padding-left: 25%;
         padding-right: 25%;
     }
+.form-container {
+    margin-top: -50px; 
+    }
+
 }    
