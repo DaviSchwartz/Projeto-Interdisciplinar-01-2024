@@ -50,7 +50,7 @@ body {
     padding-top: 1%;
     font-size: 200%;
 
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .subtexto{
@@ -70,6 +70,7 @@ body {
 }
 
 #upload:hover {
+    transition: opacity 0.3s;
     opacity: 90%;
     cursor: pointer; /* Mostra o cursor de ponteiro ao passar o mouse */
 }
@@ -140,15 +141,24 @@ footer p {
 }
 
 #btdoacao{
-    height: 100%;
-    border: none;
-    background-color: #EFF3FC;
-    width: 100px;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #217CE7;
+    text-align: center;
+    color: #eff3fc;
+    font-size:x-large;
+    display: none;
+}
+#btdoacao:hover{
+    transition: opacity 0.3s;
+    opacity: 90%;
 }
 
 #loading{
     padding-top: 100px;
-    padding-left: 45%;
+    width: 100%;
 }
 
 .conteudo{
@@ -156,10 +166,15 @@ footer p {
     padding: 20px;
 }
 
-.direita{
+.direita {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+#processamentotexto{
+    padding-bottom: 50%;
 }
 @media (min-width: 768px){
     #btupload{
@@ -168,7 +183,7 @@ footer p {
 
     #librapro{
         height: auto;
-        width: 60%;
+        width: 50%;
         }
 
     .custom-checkbox .form-check-input {
@@ -187,10 +202,31 @@ footer p {
             color: #217CE7;
         }
     
+    #processamentotexto{
+        padding-bottom: 10%;
+    }
+
+    #btdoacao{
+        width: 50%;
+        height: auto;
+        padding: 2%;
+        border-radius: 10px;
+        background-color: #217CE7;
+        text-align: center;
+        color: #eff3fc;
+        font-size:x-large;
+        display: none;
+    }
+
+    .containerrr {
+        padding-left: 33%;
+    }
+
     .centralizado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
 }    
-}
