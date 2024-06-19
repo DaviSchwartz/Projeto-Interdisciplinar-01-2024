@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Limago</title>
     <link rel="shortcut icon" href="img/title.png" type="icon">
+
   </head>
   <body>
   <!-- INICIO NAVBAR -->
@@ -40,7 +41,29 @@
         </div>
     </nav>
  <!-- FIM NAVBAR -->
-    
+
+
+ <div class="container" style="padding-top: -5px; padding-bottom: 50px;">
+    <h1 class="texto-titulo">Faça uma Doação</h1>
+    <p class="texto">Nós nos empenhamos ao máximo para que você tenha a melhor experiência.</p>
+    <div class="centralizado">
+        <form>
+            <div class="form-group">
+                <label for="nome" class="texto">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email" class="texto">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="form-group">
+                <label for="valor" class="texto">Valor:</label>
+                <input type="number" class="form-control" id="valor" placeholder="Digite o valor da doação">
+            </div>
+            <button type="submit" class="btn btn-primary" id="upload">Doar</button>
+        </form>
+    </div>
+</div>
 
 
 
@@ -49,6 +72,7 @@
         <p>&copy; 2024 Limago.</p>
     </div>
 </footer>
+
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
