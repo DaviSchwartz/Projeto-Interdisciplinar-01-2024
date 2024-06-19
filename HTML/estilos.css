@@ -1,0 +1,245 @@
+html{
+    height: 100%;
+}
+
+.margem {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #EFF3FC;
+    font-family: "Rubik", sans-serif;
+    position: relative;
+
+    min-height: 100%;
+}
+
+.navbar {
+    background-color: #EFF3FC;
+    border-bottom: 2px solid #217CE7;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    background-color: inherit;
+}
+
+.nav-link {
+    font-size: x-large;
+    transition: color 0.3s; /* efeito de transição */
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.texto-titulo {
+    text-align: center;
+    color: #217CE7;
+    padding-top: 100px;
+    font-size: 200%;
+
+}
+
+.texto{
+    text-align: center;
+    color: black;
+    padding-top: 1%;
+    font-size: 200%;
+
+    padding-bottom: 3%;
+}
+
+.subtexto{
+    text-align: center;
+}
+
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#upload {
+    width: 100%;
+
+}
+
+#upload:hover {
+    transition: opacity 0.3s;
+    opacity: 90%;
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar o mouse */
+}
+
+.img-fluid {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque {
+    color:black
+}
+
+.custom-checkbox .form-check-input {
+    width: 50px;
+    height: 50px;
+}
+
+.custom-checkbox .form-check-label {
+
+    font-size: 50px;
+}
+
+.box{
+
+}
+
+.textbox{
+    padding-bottom: 10px;
+    padding-left: 35px;
+    color: #217CE7;
+}
+
+#librapro{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-bottom: 5px;
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    background-color: #217CE7;
+    color: #EFF3FC;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.botao-imagem{
+    border: none;
+    background-color: #EFF3FC;
+}
+
+#btupload{
+    width: 100%;
+    outline: none;
+}
+
+#btdoacao{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #217CE7;
+    text-align: center;
+    color: #eff3fc;
+    font-size:x-large;
+    display: none;
+}
+#btdoacao:hover{
+    transition: opacity 0.3s;
+    opacity: 90%;
+}
+
+#loading{
+    padding-top: 100px;
+    width: 100%;
+}
+
+.conteudo{
+    flex: 1;
+    padding: 20px;
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+#processamentotexto{
+    padding-bottom: 50%;
+}
+
+#sobrenosimg{
+    height: 150px;
+    width: auto;
+}
+@media (min-width: 768px){
+    #btupload{
+        width: 50%;
+    }
+
+    #librapro{
+        height: auto;
+        width: 50%;
+        }
+
+    .custom-checkbox .form-check-input {
+        width: 30px;
+        height: 50px;
+        }
+        
+    .custom-checkbox .form-check-label {
+        
+        font-size: 25px;
+        }
+        
+    .textbox{
+            padding-top: 13px;
+            padding-left: 15px;
+            color: #217CE7;
+        }
+    
+    #processamentotexto{
+        padding-bottom: 10%;
+    }
+
+    #btdoacao{
+        width: 50%;
+        height: auto;
+        padding: 2%;
+        border-radius: 10px;
+        background-color: #217CE7;
+        text-align: center;
+        color: #eff3fc;
+        font-size:x-large;
+        display: none;
+    }
+
+    .containerrr {
+        padding-left: 33%;
+    }
+
+    .centralizado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
+    #sobrenostexto{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: justify;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}    

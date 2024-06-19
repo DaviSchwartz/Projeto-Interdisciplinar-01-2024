@@ -1,0 +1,9 @@
+@startuml
+
+left to right direction
+actor Usuarios
+
+    Usuarios -- (Fazer Upload de VideoAulas)
+    Usuarios -- (Fazer Download de VideoAulas)
+
+@enduml
