@@ -5,5 +5,6 @@ actor Usuarios
 
     Usuarios -- (Fazer Upload de VideoAulas)
     Usuarios -- (Fazer Download de VideoAulas)
-
+    Usuarios -- (Fazer Doações)
+    
 @enduml
